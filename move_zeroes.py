@@ -1,4 +1,4 @@
-def moveZeroes(nums):
+def move_Zeroes(nums):
     left = 0  
 
     for right in range(len(nums)):
@@ -9,7 +9,7 @@ def moveZeroes(nums):
     return nums
 
 nums = [0, 1, 0, 3, 12]
-print(moveZeroes(nums))  
+print(move_Zeroes(nums))  
 
 nums = [0]
-print(moveZeroes(nums)) 
+print(move_Zeroes(nums)) 
